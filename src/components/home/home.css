@@ -171,3 +171,51 @@ color: var(--primary-color);
     right: -13%;
 }
 
+@media screen and (max-width: 768px) {
+    .home__wrapper {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .home__container {
+      padding: 0 20px;
+    }
+  
+    .home__img-wrapper {
+      position: relative;
+      max-width: 80%;
+      margin-top: 40px;
+      margin-left: 10%;
+      transform: none;
+    }
+  
+    .home__banner {
+      padding-bottom: 0;
+    }
+  
+    .home__profile {
+      position: static;
+      height: auto;
+      border-radius: 0;
+      max-width: 70%; /* Adjust the maximum width of the profile image */
+      margin: 0 auto; /* Center the image */
+    }
+  
+    .home__data {
+      width: 50%; /* Adjust the width of the data elements */
+      max-width: 250px; /* Limit the maximum width */
+      height: auto;
+      margin: 20px auto; /* Center the data elements */
+      font-size: 16px; /* Adjust the font size */
+    }
+  
+    .home__text {
+      font-size: 14px; /* Adjust the font size of the text */
+    }
+  
+    .shape__1,
+    .shape__2,
+    .shape__3 {
+      display: none;
+    }
+  }
