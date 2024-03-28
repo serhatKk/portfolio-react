@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.jsx'; // App.jsx dosyasını import et
+import App from './App.jsx'; 
 
 ReactDOM.render(
   <React.StrictMode>
