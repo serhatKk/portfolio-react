@@ -93,7 +93,7 @@ export const skills = [
     name: 'Python',
     percentage: 90,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
   },
 
   {
@@ -101,14 +101,14 @@ export const skills = [
     name: 'C#',
     percentage: 80,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
   },
   {
     id: 3,
     name: 'Unity',
     percentage: 80,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
   },
 
 
@@ -117,21 +117,21 @@ export const skills = [
     name: 'React',
     percentage: 60,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
   },
   {
     id: 5,
     name: 'Java',
     percentage: 65,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
   },
   {
     id: 6,
     name: 'MySqL',
     percentage: 90,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
   },
 ];
 
@@ -201,7 +201,7 @@ export const cv = [
     subtitle: 'Backend Programming',
     date: '2014 - 2016',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
     category: 'education',
   },
 
@@ -211,7 +211,7 @@ export const cv = [
     subtitle: 'Faculty of Design',
     date: '2012 - 2014',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
     category: 'education',
   },
 
@@ -221,7 +221,7 @@ export const cv = [
     subtitle: 'High School',
     date: '2010 - 2012',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
     category: 'education',
   },
 
@@ -231,7 +231,7 @@ export const cv = [
     subtitle: 'Soft Tech Inc.',
     date: '2020 - PRESENT',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
     category: 'experience',
   },
 
@@ -241,7 +241,7 @@ export const cv = [
     subtitle: 'Kana Design Studio',
     date: '2018 - 2020',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
     category: 'experience',
   },
 
@@ -251,7 +251,7 @@ export const cv = [
     subtitle: 'Fiverr.com',
     date: '2016 - 2018',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
     category: 'experience',
   },
 ];
@@ -263,7 +263,7 @@ export const testimonials = [
     name: 'Barbara Wilson',
     author: 'CEO Company',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
   },
   {
     id: 2,
@@ -271,7 +271,7 @@ export const testimonials = [
     name: 'Charlie Smith',
     author: 'Designer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
   },
   {
     id: 3,
@@ -279,7 +279,7 @@ export const testimonials = [
     name: 'Roy Wang',
     author: 'Manager GYM',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
   },
   {
     id: 4,
@@ -287,7 +287,7 @@ export const testimonials = [
     name: 'Jennifer Smith',
     author: 'CEO & Founder',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
   },
   {
     id: 5,
@@ -295,6 +295,6 @@ export const testimonials = [
     name: 'Paul Freeman',
     author: 'Photographer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' ',
   },
 ];
