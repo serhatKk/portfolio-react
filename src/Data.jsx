@@ -197,61 +197,34 @@ export const projects = [
 export const cv = [
   {
     id: 1,
-    title: 'CoderHouse Courses',
-    subtitle: 'Backend Programming',
-    date: '2014 - 2016',
+    title: 'Dumlupınar Üniversitesi',
+    subtitle: 'Bilgisayar Mühendisliği',
+    date: '2019 - 2024',
     description:
-      ' ',
+      'Ortalama : 3.16',
     category: 'education',
   },
 
+
+ 
+
   {
     id: 2,
-    title: 'Lviv National Academy of Arts',
-    subtitle: 'Faculty of Design',
-    date: '2012 - 2014',
+    title: 'Uşak Valiliği',
+    subtitle: 'Stajyer',
+    date: '2023 Temmuz- 2023 Ağustos',
     description:
-      ' ',
-    category: 'education',
+    '• - Güvenlik Duvarı Hakkında Bilgi • - Veri Analizleri •- Veritabanı SqL Çalışmaları ',
+    category: 'experience',
   },
 
   {
     id: 3,
-    title: 'IT Future',
-    subtitle: 'High School',
-    date: '2010 - 2012',
+    title: 'MarkaPress',
+    subtitle: 'Stajyer',
+    date: '2023 Mayıs- 2023 Temmuz',
     description:
-      ' ',
-    category: 'education',
-  },
-
-  {
-    id: 4,
-    title: 'UI Head & Manager',
-    subtitle: 'Soft Tech Inc.',
-    date: '2020 - PRESENT',
-    description:
-      ' ',
-    category: 'experience',
-  },
-
-  {
-    id: 5,
-    title: 'UI / UX Specialist',
-    subtitle: 'Kana Design Studio',
-    date: '2018 - 2020',
-    description:
-      ' ',
-    category: 'experience',
-  },
-
-  {
-    id: 6,
-    title: 'Plugins Developer',
-    subtitle: 'Fiverr.com',
-    date: '2016 - 2018',
-    description:
-      ' ',
+    '• - Full-Stack Web Geliştirme(Html/CSS/React/Node.js • - Müşteri İlişkileri',
     category: 'experience',
   },
 ];

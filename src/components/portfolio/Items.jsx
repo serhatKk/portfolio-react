@@ -24,10 +24,11 @@ function Items({projectItems}) {
                 <p className="portfolio__description">{description}</p>
 
                 <a href="" className="link">
-                    See Pricing 
+                    İncele 
                     <FaArrowRight className='link__icon'></FaArrowRight>
 
-                </a>
+                </a> 
+                
                 <img src={shapeTwo} alt="" className="shape c__shape" />
             </motion.div>
         )
