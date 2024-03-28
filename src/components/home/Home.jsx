@@ -12,15 +12,15 @@ const Home = () => {
             <div className="home__wrapper">
             <div className="home__container container">
                 <p className="home__subtitle text-cs">
-                    Hello,<span>My Name is</span>
+                    Merhabalar,<span>İSMİM</span>
                 </p>
                 <h1 className="home__title text-cs"><span>Sertan</span> Kahraman
                 </h1>
                 <p className="home__job">
-                    <span className="text-cs">I Am</span><b> PC Engineer</b>
+                    <span className="text-cs">Ben</span><b> Bilgisayar Mühendisiyim.</b>
                 </p>
                 <p className="home__text">
-                    From Usak, Turkiye. I have rich experience in C# .Net Windows Forms also I am good at Python.  I love to do somethings fun.
+                    Uşak,Türkiye'de yaşıyorum, C# .Net Windows Forms konusunda deneyimim var ve Python'da da iyiyim. Eğlenceli bir şeyler yapmayı seviyorum.
                 </p>
                
                 <div className="home__socials">
@@ -35,8 +35,8 @@ const Home = () => {
                     </a>
                 </div>
                 <div className="home__btns">
-                    <a href="https://drive.usercontent.google.com/download?id=1hTZ35VkHMhi1is9r8fmooUDIX7AZA9B4&export=download&authuser=2&confirm=t&uuid=d9b97876-c3b5-489d-a31a-8963b2f30969&at=APZUnTVjWQiQ4dx4otrOnn7HMfhL:1711545056500"target="_blank" className="btn text-cs">Download CV</a>
-                    <a href="" className="hero__link text-cs">My Skills</a>
+                    <a href="https://drive.usercontent.google.com/download?id=1hTZ35VkHMhi1is9r8fmooUDIX7AZA9B4&export=download&authuser=2&confirm=t&uuid=d9b97876-c3b5-489d-a31a-8963b2f30969&at=APZUnTVjWQiQ4dx4otrOnn7HMfhL:1711545056500"target="_blank" className="btn text-cs">CV İNDİR</a>
+                    <a href="" className="hero__link text-cs"> Yeteneklerim</a>
                 </div>
                 <div className="home__img-wrapper">
                     <div className="home__banner">
@@ -48,18 +48,17 @@ const Home = () => {
                    </span>
 
                    <span className="text-sm text-cs">
-                    Years of <span>Experince</span>
+                    Yıl <span>Deneyim</span>
                    </span>
                     
                  </p>
 
                  <p className="home__data home__data-two">
-                   <span className="text-lg">
-                    10
+                   <span className="text-lg">7 <b></b>
                    </span>
 
                    <span className="text-sm text-cs">
-                    Completed <span>Projects</span>
+                    Tamamlanmış <span>Proje</span>
                    </span>
                  </p>
                  <img src={shapeOne} alt="" className="shape shape__1" />

@@ -72,9 +72,9 @@
     content:  '';
     position: absolute;
     top: 50%;
-    left: -97%;
+    left: -60%;
     transform:  translateY(-50%);
-    width: 40px;
+    width: 60px;
     height: 2px;
     background-color: var(--border-color);
 
@@ -129,7 +129,7 @@
 
 .home__data .text-lg,
 .home__data .text-sm {
-    width: 50%;
+    width: 40%;
     color: var(--title-color);
     font-weight: 700;
 
