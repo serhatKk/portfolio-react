@@ -1,5 +1,5 @@
 .resume{
-    background-image:  var(--first-gradient);
+    background-image:  var(--second-gradient);
 }
 .resume__container{
     grid-template-columns: repeat(2,1fr);

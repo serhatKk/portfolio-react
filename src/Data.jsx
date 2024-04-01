@@ -34,18 +34,6 @@ export const links = [
     path: 'resume',
   },
   {
-    name: 'Testimonials',
-    path: 'testimonial',
-  },
-  {
-    name: 'Pricing',
-    path: 'pricing',
-  },
-  {
-    name: 'Blog',
-    path: 'blog',
-  },
-  {
     name: 'Contact',
     path: 'contact',
   },
@@ -57,8 +45,7 @@ export const services = [
     name: '.Net Windows Forms ',
     title: 'Desktop Applications',
     description:
-    "While creating applications using Windows Forms, I also design unique and compelling user interfaces that are user-friendly and functional" },
-  {
+    "Windows Forms'u kullanarak uygulamalar oluştururken aynı zamanda kullanıcı dostu ve işlevsel, benzersiz ve ilgi çekici kullanıcı arayüzleri de tasarlıyorum" },  {
     id: 2,
     name: 'Bot Yazılımı',
     title: 'Python ile Bot Geliştirme',
