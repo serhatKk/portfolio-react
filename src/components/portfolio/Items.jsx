@@ -7,7 +7,7 @@ function Items({projectItems}) {
   return (
     <>
     {projectItems.map((projectItem) => {
-        const {id,img,category,title,description}=projectItem;
+        const {id,img,category,title,description,link}=projectItem;
         return (
             <motion.div 
             layout
@@ -23,7 +23,7 @@ function Items({projectItems}) {
                 <h3 className="portfolio__title">{title}</h3>
                 <p className="portfolio__description">{description}</p>
 
-                <a href="" className="link">
+                <a href={link} target='_blank' className="link">
                     İncele 
                     <FaArrowRight className='link__icon'></FaArrowRight>
 

@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import './index.css'; // CSS dosyasını burada içe aktarın
+
 import Header from './components/header/Header.jsx';
 import Home from './components/home/Home.jsx'; 
 import Services from './components/services/Services.jsx';

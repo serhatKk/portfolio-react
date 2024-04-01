@@ -6,12 +6,6 @@ import Project5 from './assets/project5.jpeg';
 import Project6 from './assets/project6.jpeg';
 import Project7 from './assets/project7.jpeg';
 
-import Testimonial1 from './assets/testimonial1.jpg';
-import Testimonial2 from './assets/testimonial2.jpg';
-import Testimonial3 from './assets/testimonial3.jpg';
-import Testimonial4 from './assets/testimonial4.jpg';
-import Testimonial5 from './assets/testimonial5.jpg';
-
 export const links = [
   {
     name: 'Home',
@@ -129,7 +123,8 @@ export const projects = [
     category: 'Desktop App',
     title: 'The Mechanic',
     description:
-    'Aracınızı tamirhaneye götürmeden bakım/tamir işlemlerini yaptırıp tamirin her aşamasını uygulama üzerinden kontrol edebileceğiniz Masaüstü Uygulaması'  
+    'Aracınızı tamirhaneye götürmeden bakım/tamir işlemlerini yaptırıp tamirin her aşamasını uygulama üzerinden kontrol edebileceğiniz Masaüstü Uygulaması'  ,
+    link : 'https://youtu.be/VTIwjHQ9Pgg'
   },
   {
     id: 2,
@@ -138,6 +133,7 @@ export const projects = [
     title: 'GunFight Simulator',
     description:
       'Bu proje bir FPS (Birinci Şahıs Nişancı) oyun projesidir. Oyuncuya özgür ve kaliteli  oynanış sunan bu projede, birbirinden çeşitli mekanikler mevcuttur.',
+    link :'https://youtu.be/2ZNflC6wGGU'
   },
   {
     id: 3,
@@ -146,6 +142,7 @@ export const projects = [
     title: 'Telegram Duyuru Botu',
     description:
       'Telegram için gönderdiğiniz ürün linkini ekli olduğu kanallarda duyuru olarak mesaj ve ürün linkini kullanıclarla paylaşan bot',
+    link : 'https://youtu.be/oIf3JHCwlVQ'
   },
   {
     id: 4,
@@ -154,6 +151,7 @@ export const projects = [
     title: 'Instagram Unfollow Botu',
     description:
       'Python Selenium kütüphanesi kullanarak instagrama login ve  geri takip etmeyen kullanıcıları gösterip ,geri takipten çıkmanızı sağlayan bot',
+    link : 'https://github.com/serhatKk/Instagram-Unfollow-Bot'
   },
   {
     id: 5,
@@ -162,6 +160,7 @@ export const projects = [
     title: 'SeroFlix',
     description:
       'Dizi ve Filmlerin izleyiciler tarafından değerlendirilip yorum yapabildiği ve admin olarak site kontrolü yapılan Full-Stack bir web sitesi',
+    link : 'https://youtu.be/VtCg-IXqudE'
   },
   {
     id: 6,
@@ -170,6 +169,7 @@ export const projects = [
     title: 'Portfolio',
     description:
       'Şuanda içinde bulunmuş olduğunuz Web Sitesi :))',
+    link:'https://serhatkk.github.io/portfolio-react/'
   },
   {
     id: 7,
@@ -178,6 +178,7 @@ export const projects = [
     title: 'Dark Side of Cages',
     description:
       'Unity Engine ve C# kullanılarak, düşmanları temizleyip ve gerekli malzemeleri toplayarak bölümleri geçtiğiniz 2d Platform oyunu.',
+    link : 'https://github.com/serhatKk/the-cage-game'
   },
 ];
 
@@ -216,45 +217,3 @@ export const cv = [
   },
 ];
 
-export const testimonials = [
-  {
-    id: 1,
-    img: Testimonial1,
-    name: 'Barbara Wilson',
-    author: 'CEO Company',
-    description:
-      ' ',
-  },
-  {
-    id: 2,
-    img: Testimonial2,
-    name: 'Charlie Smith',
-    author: 'Designer',
-    description:
-      ' ',
-  },
-  {
-    id: 3,
-    img: Testimonial3,
-    name: 'Roy Wang',
-    author: 'Manager GYM',
-    description:
-      ' ',
-  },
-  {
-    id: 4,
-    img: Testimonial4,
-    name: 'Jennifer Smith',
-    author: 'CEO & Founder',
-    description:
-      ' ',
-  },
-  {
-    id: 5,
-    img: Testimonial5,
-    name: 'Paul Freeman',
-    author: 'Photographer',
-    description:
-      ' ',
-  },
-];
