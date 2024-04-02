@@ -78,8 +78,10 @@ const Home = () => {
                 <img src={shapeOne} alt="" className='shape' />
             </div>
 
-            <div className="section__bg-wrapper">
-                <span className="bg__title">Bilgisayar Müh. </span>
+            <div class="disable-select">
+                <div className="section__bg-wrapper">
+                    <span className="bg__title">Bilgisayar Müh.</span>
+                </div>
             </div>
         </section>
     )

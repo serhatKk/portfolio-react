@@ -6,7 +6,13 @@ import './resume.css'
 
 const Resume = () => {
     return (
+        
         <section className="resume section" id="section">
+                        <div class="disable-select">
+                <div className="section__bg-wrapper">
+                    <span className="bg__title">Geçmiş</span>
+                </div>
+            </div>
             <h2 className="section__title text-cs">Devam</h2>
             <p className="section__subtitle">
                 Benim <span>Hikayem</span>
@@ -54,9 +60,8 @@ const Resume = () => {
             <div className="section__deco deco__left">
                 <img src={shapeOne} alt="" className='shape' />
             </div>
-            <div className="section__bg-wrapper">
-                <span className="bg__title">Geçmiş</span>
-            </div>
+
+
 
         </section>
     )

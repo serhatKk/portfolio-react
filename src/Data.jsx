@@ -37,7 +37,7 @@ export const services = [
   {
     id: 1,
     name: '.Net Windows Forms ',
-    title: 'Desktop Applications',
+    title: 'Masaüstü Uygulamalar',
     description:
     "Windows Forms'u kullanarak uygulamalar oluştururken aynı zamanda kullanıcı dostu ve işlevsel, benzersiz ve ilgi çekici kullanıcı arayüzleri de tasarlıyorum" },  {
     id: 2,
@@ -192,9 +192,6 @@ export const cv = [
       'Ortalama : 3.16',
     category: 'education',
   },
-
-
- 
 
   {
     id: 2,

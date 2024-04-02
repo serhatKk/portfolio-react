@@ -23,7 +23,12 @@
         width: 126px;
         height: 126px;
     }
- 
+    .c__shape{
+        right: -24px;
+        bottom: -24px;
+        width: 130px;
+        height: 130px;
+    }
 }
 
 @media screen and (max-width :1200px){
@@ -50,7 +55,7 @@
         transform: initial;
         right: initial;
         margin-inline: auto;
-        margin-top: 140px;
+        margin-top: 100px;
     }
 
     .home__socials,
@@ -65,6 +70,14 @@
     .footer__copyright:nth-child(2){
         justify-self: start;
     }
+
+    .c__shape{
+        right: -24px;
+        bottom: -24px;
+        width: 130px;
+        height: 130px;
+    }
+    
 
 }
 
@@ -85,7 +98,9 @@
     .container{
         max-width: 740px;
     }
-
+    .home__img-wrapper{
+        margin-top: 120px;
+    }
     .home__btns{
         flex-direction: column;
         align-items: center;
@@ -150,6 +165,7 @@
     .footer__copyright:last-child{
         justify-self: center;
     }
+
 }
 
 @media screen and (max-width :768px){
@@ -175,7 +191,7 @@
     }
 
     .home__img-wrapper{
-        margin-top: 180px;
+        margin-top: 100px;
         max-width: 400px;
     }
 
@@ -228,10 +244,16 @@
     .portfolio__list-item::before{
         bottom: -8px;
     }
+    .c__shape{
+        right: -24px;
+        bottom: -24px;
+        width: 150px;
+        height: 150px;
+    }
 
 }
 
-@media screen and (max-width :576px){
+@media screen and (max-width :596px){
     .show-menu{
         width: 100%;
 
@@ -271,7 +293,7 @@
     }
 
     .home__img-wrapper{
-        margin-top: 110px;
+        margin-top: 100px;
     }
 
     .resume__header{
@@ -286,6 +308,12 @@
         flex-direction: column;
         align-items: flex-start;
         row-gap: 4px;
+    }
+    .c__shape{
+        right: -24px;
+        bottom: -24px;
+        width: 120px;
+        height: 120px;
     }
 }
 
@@ -321,7 +349,7 @@
    }
     .home__img-wrapper{
 
-        margin-top: 100px;
+        margin-top: 70px;
         max-width: 340px;
     }
     .home__profile{
@@ -357,5 +385,12 @@
     .shape__3{
         bottom:15%;
         right: -11%;
+    }
+
+    .c__shape{
+        right: -14px;
+        bottom: -14px;
+        width: 100px;
+        height: 100px;
     }
 }

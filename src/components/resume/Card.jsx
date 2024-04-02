@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 const Card = (props) => {
   const [showInfo, setShowInfo] = useState(false);
 
-  // Description'ı alt alta yazdırmak için satırlara böler
   const descriptionLines = props.description.split('•');
 
   return (
@@ -18,13 +17,12 @@ const Card = (props) => {
           <h3 className="resume__title">{props.subtitle}</h3>
           <span className="resume__date text-cs">{props.date}</span>
         </div>
-
-        <div className="resume__description">
+        <p className="resume__description" >
           {descriptionLines.map((line, index) => (
             // Her satırı ayrı bir paragraf olarak render eder
             <p key={index}>{line.trim()}</p>
           ))}
-        </div>
+        </p>
       </div>
     </div>
   );
