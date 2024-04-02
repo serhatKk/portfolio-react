@@ -52,9 +52,10 @@
     }
     .home__img-wrapper{
         position: relative;
+        transform: initial;
         right: initial;
         margin-inline: auto;
-        margin-top: 200px;
+        margin-top: 100px;
     }
 
     .home__socials,
@@ -98,7 +99,7 @@
         max-width: 740px;
     }
     .home__img-wrapper{
-        margin-top: 190px;
+        margin-top: 120px;
     }
     .home__btns{
         flex-direction: column;
@@ -190,7 +191,7 @@
     }
 
     .home__img-wrapper{
-        margin-top: 150px;
+        margin-top: 100px;
         max-width: 400px;
     }
 
@@ -292,7 +293,7 @@
     }
 
     .home__img-wrapper{
-        margin-top: 150px;
+        margin-top: 100px;
     }
 
     .resume__header{
@@ -348,7 +349,7 @@
    }
     .home__img-wrapper{
 
-        margin-top: 105px;
+        margin-top: 70px;
         max-width: 340px;
     }
     .home__profile{
