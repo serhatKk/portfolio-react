@@ -8,27 +8,27 @@ import Project7 from './assets/project7.jpeg';
 
 export const links = [
   {
-    name: 'Home',
+    name: 'Ana Sayfa',
     path: 'home',
   },
   {
-    name: 'Services',
+    name: 'Hizmetler',
     path: 'services',
   },
   {
-    name: 'Skills',
+    name: 'Yetenekler',
     path: 'skills',
   },
   {
-    name: 'Works',
+    name: 'Projeler',
     path: 'work',
   },
   {
-    name: 'Resume',
+    name: 'Geçmiş',
     path: 'resume',
   },
   {
-    name: 'Contact',
+    name: 'İletişim',
     path: 'contact',
   },
 ];
