@@ -16,7 +16,8 @@
 }
 
 .contact__card-icon,
-.contact__form-input{
+.contact__form-input,
+.success-message{
     border: 2px solid var(--border-color);
     background-color: var(--container-color);
 }
@@ -96,4 +97,19 @@
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 15px;
+}
+.success-message {
+    background-color: rgb(181, 249, 181);
+    color: var(--title-color);
+    font-family: var(--first-font);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 60px;
+    border-radius: 30px;
+    padding-inline:30px;
+    height: 140px;
+    padding-block: 20px;
+    resize: none;
+    
 }
