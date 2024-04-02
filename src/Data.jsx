@@ -49,9 +49,9 @@ export const services = [
   {
     id: 3,
     name: ' Oyun Yapımı ',
-    title: ' Unity 2D/3D Oyun Geliştirme ',
+    title: ' Unity ile Oyun Geliştirme ',
     description:
-    "Oyunlar oluşturuyorum ve bir oyunun tasarımını, geliştirilmesini ve piyasaya sürülmesini açıklıyorum. Benzersiz mobil Android ve iOS oyunları geliştiriyorum." },
+    "2D/3D Oyunlar oluşturuyorum ve bir oyunun tasarımını, geliştirilmesini ve piyasaya sürülmesini açıklıyorum. Benzersiz mobil Android ve iOS oyunları geliştiriyorum." },
   {
     id: 4,
     name: ' Web Siteleri',

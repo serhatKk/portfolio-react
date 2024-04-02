@@ -3,7 +3,11 @@
   
     padding-bottom: 180px;
 }
-
+.home,
+.home__wrapper,
+.home__container {
+    position: relative;
+}
 .home__wrapper{
     min-height: 100vh;
     display: grid;
@@ -11,7 +15,7 @@
 }
 .home__container {
     width: 100%;
-    position: relative;
+    z-index: 10;
 }
 .home__subtitle,
 .home__job{
@@ -89,21 +93,23 @@
     width: 700px;
     max-width: 600px;
 }
+
+.home__profile {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    border-radius: 46%;
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .home__banner {
     background-color: var(--primary-color);
     padding-bottom: 100%;
     border-radius: 50%;
     position: relative;
     z-index: 1;
-}
-
-.home__profile {
-    position: absolute;
-    bottom: 0%;
-    left: 10%;
-    height: 700px;
-    border-radius:205px;
-    object-fit: cover;
 }
 
 .home__data {
@@ -166,48 +172,8 @@ color: var(--primary-color);
 }
 .shape__2{
     bottom: 14%;
-    left: -29%;
+    left: -26%;
 }.shape__3{
     bottom: 4%;
     right: -13%;
-}
-
-@media screen and (max-width : 1200px) {
-    .container {
-        max-width: 960px;
-        }
-
-    .home{}
-    .home__subtitle,
-    .home__title,
-    .home__job,
-    .home__text{
-        text-align: center;
-    }
-    .home__text{
-        margin-inline: auto;
-    }
-    .home__img-wrapper{   
-        position: relative;
-        transform: initial;
-        right: initial;
-        margin-inline:auto;
-        margin-top: 300px;
-        
-
-    }
-    .home__profile{
-        height: auto;
-        border-radius: 500px;
-        left: 0%;
-    }
-    .home__socials,
-    .home__btns {
-        justify-content: center;
-    }
-
-    .skills__container,
-    .portfolio.container{
-        grid-template-columns: repeat(2,1fr);
-    }
 }
