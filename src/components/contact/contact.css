@@ -99,17 +99,25 @@
     row-gap: 15px;
 }
 .success-message {
-    background-color: rgb(181, 249, 181);
     color: var(--title-color);
+    background: rgb(4, 242, 155);
+    font-size: var(--small-font-size);
     font-family: var(--first-font);
-    padding: 10px;
     text-align: center;
-    margin-bottom: 10px;
     height: 60px;
     border-radius: 30px;
     padding-inline:30px;
-    height: 140px;
     padding-block: 20px;
-    resize: none;
     
+}
+.error-message {
+    color: var(--title-color);
+    background: burlywood;
+    font-size: var(--small-font-size);
+    font-family: var(--first-font);
+    text-align: center;
+    height: 60px;
+    border-radius: 30px;
+    padding-inline:30px;
+    padding-block: 20px;
 }
