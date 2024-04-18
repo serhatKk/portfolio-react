@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 const Card = (props) => {
+
   const [showInfo, setShowInfo] = useState(false);
 
   const descriptionLines = props.description.split('•');
@@ -19,7 +20,6 @@ const Card = (props) => {
         </div>
         <p className="resume__description" >
           {descriptionLines.map((line, index) => (
-            // Her satırı ayrı bir paragraf olarak render eder
             <p key={index}>{line.trim()}</p>
           ))}
         </p>

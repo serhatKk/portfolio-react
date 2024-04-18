@@ -51,7 +51,7 @@ const Home = () => {
                         <img src={shapeTwo} alt="" className="shape shape__3" />
                     </div>
                     <p className="home__text">
-                        Uşak,Türkiye'de yaşıyorum, C# .Net Windows Forms konusunda deneyimim var ve Python'da da iyiyim. Eğlenceli bir şeyler yapmayı seviyorum.
+                        İstanbul,Türkiye'de yaşıyorum, C# .Net Windows Forms konusunda deneyimim var ve Python'da da iyiyim. Eğlenceli bir şeyler yapmayı seviyorum.
                     </p>
 
                     <div className="home__socials">
