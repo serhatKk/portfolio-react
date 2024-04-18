@@ -354,10 +354,9 @@
 
         margin-top: 70px;
         max-width: 340px;
-        transform: translateY(1%);
     }
     .home__profile{
-        height: 410px;
+        max-height: 410px;
         left: 0%;
 
     }
@@ -397,4 +396,5 @@
         width: 100px;
         height: 100px;
     }
+
 }

@@ -47,6 +47,7 @@
 
 .home__text {
     font-size: var(---font-size);
+    position: relative;
     margin-block: 40px 28px;
     max-width: 520px;
 }
